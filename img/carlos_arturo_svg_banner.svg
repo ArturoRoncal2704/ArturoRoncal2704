@@ -1,0 +1,85 @@
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f0f;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#533a71;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="glowEffect" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.2" />
+      <stop offset="70%" style="stop-color:#00D9FF;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:transparent;stop-opacity:0" />
+    </radialGradient>
+    
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="titleGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#backgroundGradient)"/>
+  
+  <!-- Stars -->
+  <circle cx="100" cy="80" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="200" cy="120" r="1" fill="white" opacity="0.6"/>
+  <circle cx="300" cy="60" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="450" cy="100" r="1" fill="white" opacity="0.7"/>
+  <circle cx="600" cy="70" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="750" cy="110" r="1" fill="white" opacity="0.6"/>
+  <circle cx="900" cy="50" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="1050" cy="90" r="1" fill="white" opacity="0.7"/>
+  <circle cx="150" cy="300" r="1" fill="white" opacity="0.6"/>
+  <circle cx="350" cy="320" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="550" cy="280" r="1" fill="white" opacity="0.7"/>
+  <circle cx="750" cy="310" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="950" cy="290" r="1" fill="white" opacity="0.6"/>
+  <circle cx="1100" cy="330" r="1.5" fill="white" opacity="0.8"/>
+  
+  <!-- Glow Effect -->
+  <ellipse cx="600" cy="200" rx="200" ry="150" fill="url(#glowEffect)"/>
+  
+  <!-- Floating Code Elements -->
+  <text x="150" y="180" font-family="monospace" font-size="32" fill="#8B4513" opacity="0.3">{}</text>
+  <text x="980" y="250" font-family="monospace" font-size="28" fill="#8B4513" opacity="0.25">[]</text>
+  <text x="200" y="350" font-family="monospace" font-size="30" fill="#8B4513" opacity="0.3">&lt;/&gt;</text>
+  <text x="950" y="140" font-family="monospace" font-size="32" fill="#8B4513" opacity="0.25">$</text>
+  
+  <!-- Geometric Shapes -->
+  <circle cx="950" cy="100" r="30" stroke="#8B4513" stroke-width="2" fill="none" opacity="0.3"/>
+  <polygon points="200,280 170,330 230,330" stroke="#8B4513" stroke-width="2" fill="none" opacity="0.25"/>
+  <polygon points="1000,300 1040,315 1040,345 1000,360 960,345 960,315" stroke="#8B4513" stroke-width="2" fill="none" opacity="0.3"/>
+  
+  <!-- Hand Icon -->
+  <text x="180" y="220" font-size="80" fill="#FFD700">🤘</text>
+  
+  <!-- Server Icon -->
+  <text x="940" y="220" font-size="80" fill="#00D9FF">🖥️</text>
+  
+  <!-- Main Name -->
+  <text x="600" y="180" font-family="Arial, sans-serif" font-size="72" font-weight="800" 
+        fill="white" text-anchor="middle" filter="url(#textGlow)" 
+        letter-spacing="3px">Carlos Arturo</text>
+  
+  <!-- Title -->
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="40" font-weight="700" 
+        fill="#00D9FF" text-anchor="middle" filter="url(#titleGlow)" 
+        letter-spacing="2px">Backend Developer</text>
+  
+  <!-- Title Underline -->
+  <line x1="430" y1="255" x2="770" y2="255" stroke="#00D9FF" stroke-width="4"/>
+</svg>
