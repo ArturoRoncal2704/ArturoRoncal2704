@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="./img/carlos_arturo_svg_banner.svg" alt="Imagen" width="200"/>
+</p>
+
 # ¡Hola! 👋 Soy Arturo
 
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tu-linkedin)](https://www.linkedin.com/in/carlos-ron27/)
