@@ -33,6 +33,6 @@ Soy **Arturo Roncal**, un apasionado **desarrollador full stack en formación** 
 
 ![Arturo's GitHub stats](https://github-readme-stats.vercel.app/api?username=ArturoRoncal2704&show_icons=true&theme=radical&count_private=true)
 
-<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ArturoRoncal2704&layout=compact&theme=radical) --!>
-
 ---
+
+*¡Gracias por visitar mi perfil! 🚀*
