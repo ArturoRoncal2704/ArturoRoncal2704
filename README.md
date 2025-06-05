@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./img/carlos_arturo_svg_banner.svg" alt="Imagen" width="200"/>
+  <img src="./img/carlos_arturo_svg_banner.svg" alt="Imagen"/>
 </p>
 
 # ¡Hola! 👋 Soy Arturo
