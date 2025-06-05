@@ -2,7 +2,7 @@
 
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tu-linkedin)](https://www.linkedin.com/in/carlos-ron27/)
 [![Gmail Badge](https://img.shields.io/badge/-tuemail@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tuemail@gmail.com)](mailto:roncalhermenegildo@gmail.com)
-![GitHub followers](https://img.shields.io/github/followers/tu-usuario?label=Follow&style=social)
+![GitHub followers](https://img.shields.io/github/followers/ArturoRoncal2704?label=Follow&style=social)
 
 ---
 
