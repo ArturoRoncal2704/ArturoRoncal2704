@@ -1,4 +1,4 @@
-# ¡Hola! 👋 Soy [Tu Nombre]
+# ¡Hola! 👋 Soy Carlos Arturo  
 
 Soy un estudiante y desarrollador en formación, apasionado por la tecnología y la programación...
 
@@ -18,6 +18,6 @@ Soy un estudiante y desarrollador en formación, apasionado por la tecnología y
 
 ## Contáctame
 
-- 📧 [tu-email@example.com]  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/tu-perfil)  
-- 🔗 [GitHub](https://github.com/tu-usuario)  
+- 📧 [roncalhermenegildo@gmail.com]  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/carlos-ron27/)  
+- 🔗 [GitHub](https://github.com/ArturoRoncal2704)  
