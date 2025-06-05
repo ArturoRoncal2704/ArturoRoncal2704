@@ -1,7 +1,7 @@
 # ¡Hola! 👋 Soy Arturo
 
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tu-linkedin)](https://www.linkedin.com/in/carlos-ron27/)
-[![Gmail Badge](https://img.shields.io/badge/-tuemail@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tuemail@gmail.com)](mailto:roncalhermenegildo@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-roncalhermenegildo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tuemail@gmail.com)](mailto:roncalhermenegildo@gmail.com)
 ![GitHub followers](https://img.shields.io/github/followers/ArturoRoncal2704?label=Follow&style=social)
 
 ---
@@ -33,16 +33,6 @@ Soy **Arturo Roncal**, un apasionado **desarrollador full stack en formación** 
 
 ![Arturo's GitHub stats](https://github-readme-stats.vercel.app/api?username=ArturoRoncal2704&show_icons=true&theme=radical&count_private=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ArturoRoncal2704&layout=compact&theme=radical)
+<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ArturoRoncal2704&layout=compact&theme=radical) --!>
 
 ---
-
-## 📬 Contacto
-
-- 📧 [tuemail@gmail.com](mailto:roncalhermenegildo@gmail.com)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/carlos-ron27/)
-- 🔗 [GitHub](https://github.com/ArturoRoncal2704)
-
----
-
-*¡Gracias por visitar mi perfil! 🚀*
