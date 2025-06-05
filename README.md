@@ -13,7 +13,7 @@
 
 ## 👨‍💻 Sobre mí
 
-Soy **Arturo Roncal**, un apasionado **desarrollador full stack en formación** desde **Perú 🇵🇪**.
+Soy **Arturo Roncal**, un apasionado **desarrollador backend en formación** desde **Perú 🇵🇪**.
 
 🎓 Actualmente estudiante de **Computación e Informática en Cibertec (6to ciclo)**.  
 🚀 Me especializo en **Java, Spring Boot, Angular, MySQL y APIs REST**.  
