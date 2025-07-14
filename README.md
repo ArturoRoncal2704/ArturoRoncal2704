@@ -5,21 +5,19 @@
 
 # ¡Hola! 👋 Soy Arturo
 
-[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tu-linkedin)](https://www.linkedin.com/in/carlos-ron27/)
-[![Gmail Badge](https://img.shields.io/badge/-roncalhermenegildo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tuemail@gmail.com)](mailto:roncalhermenegildo@gmail.com)
-![GitHub followers](https://img.shields.io/github/followers/ArturoRoncal2704?label=Follow&style=social)
-
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-@CarlosArturo-487FCF?style=for-the-badge&logo=LinkedIn&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/carlos-ron27/)
+[![Email](https://img.shields.io/badge/CarlosArturo-email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010)](mailto:roncalhermenegildo@gmail.com)
 
 ## 👨‍💻 Sobre mí
 
 Soy **Arturo Roncal**, un apasionado **desarrollador backend en formación** desde **Perú 🇵🇪**.
 
-🎓 Actualmente estudiante de **Computación e Informática en Cibertec (6to ciclo)**.  
-🚀 Me especializo en **Java, Spring Boot, Angular, MySQL y APIs REST**.  
+🎓 Actualmente estudiante de **Computación e Informática en Cibertec (6to ciclo)**.
+</br>
+🚀 Me especializo en **Java, Spring Boot, Angular, MySQL y APIs REST**.
+</br>
 ✨ Me encanta crear proyectos que solucionen problemas reales y siempre estoy en busca de aprender nuevas tecnologías.
-
----
+</br>
 
 ## 🔧 Tecnologías más usadas
 
@@ -49,13 +47,10 @@ Soy **Arturo Roncal**, un apasionado **desarrollador backend en formación** des
   <img src="https://skillicons.dev/icons?i=aws" height="40" alt="aws logo"  />
   <img width="12" />
 </div>
----
-
 
 ## 📊 Mis estadísticas en GitHub
 
-![Arturo's GitHub stats](https://github-readme-stats.vercel.app/api?username=ArturoRoncal2704&show_icons=true&theme=radical&count_private=true)
+[![GitHub Streak](https://streak-stats.demolab.com?user=ArturoRoncal2704&theme=highcontrast&border_radius=7&hide_border=true&exclude_days=Sun%2CSat&card_width=467)](#)
 
----
 
 *¡Gracias por visitar mi perfil! 🚀*
