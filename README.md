@@ -50,7 +50,11 @@ Soy **Arturo Roncal**, un apasionado **desarrollador backend en formación** des
 
 ### 📊 Mis estadísticas en GitHub
 
+<div align="center">
+  
 [![GitHub Streak](https://streak-stats.demolab.com?user=ArturoRoncal2704&theme=highcontrast&border_radius=7&hide_border=true&exclude_days=Sun%2CSat&card_width=467)](https://github.com/ArturoRoncal2704)
+
+</div>
 
 ---
 
