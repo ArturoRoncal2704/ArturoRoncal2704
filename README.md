@@ -2,12 +2,13 @@
 <p align="center">
   <img src="./img/carlos_arturo_svg_banner.svg" alt="Imagen"/>
 </p>
-
+---
 # ¡Hola! 👋 Soy Arturo
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@CarlosArturo-487FCF?style=for-the-badge&logo=LinkedIn&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/carlos-ron27/)
 [![Email](https://img.shields.io/badge/CarlosArturo-email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010)](mailto:roncalhermenegildo@gmail.com)
 
+---
 ## 👨‍💻 Sobre mí
 
 Soy **Arturo Roncal**, un apasionado **desarrollador backend en formación** desde **Perú 🇵🇪**.
@@ -18,7 +19,7 @@ Soy **Arturo Roncal**, un apasionado **desarrollador backend en formación** des
 </br>
 ✨ Me encanta crear proyectos que solucionen problemas reales y siempre estoy en busca de aprender nuevas tecnologías.
 </br>
-
+---
 ## 🔧 Tecnologías más usadas
 
 <div align="left">
@@ -27,8 +28,6 @@ Soy **Arturo Roncal**, un apasionado **desarrollador backend en formación** des
   <img src="https://skillicons.dev/icons?i=spring" height="40" alt="spring logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=angular" height="40" alt="angular logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="js logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo"  />
   <img width="12" />
@@ -41,10 +40,6 @@ Soy **Arturo Roncal**, un apasionado **desarrollador backend en formación** des
   <img src="https://skillicons.dev/icons?i=bootstrap" height="40" alt="bootstrap logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=postman" height="40" alt="postman logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=astro" height="40" alt="astro logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=aws" height="40" alt="aws logo"  />
   <img width="12" />
 </div>
 
