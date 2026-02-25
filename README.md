@@ -67,16 +67,15 @@ Apasionado por la innovación, el código limpio y el aprendizaje continuo. 🚀
 
 <div align="center">
 
-  <!--  Racha de contribuciones -->
   <img src="https://streak-stats.demolab.com?user=ArturoRoncal2704&theme=tokyonight&border_radius=8&hide_border=true&exclude_days=Sun,Sat&card_width=470" alt="GitHub Streak" />
+  
+  <br><br>
 
-  <!--  Estadísticas generales -->
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api?username=ArturoRoncal2704&show_icons=true&theme=tokyonight&border_radius=8&hide_border=true&card_width=470" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=ArturoRoncal2704&show_icons=true&theme=tokyonight&border_radius=8&hide_border=true&card_width=470" alt="GitHub Stats" />
+  
+  <br><br>
 
-  <!--  Lenguajes más usados -->
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArturoRoncal2704&layout=compact&theme=tokyonight&border_radius=8&hide_border=true&langs_count=6&card_width=470" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ArturoRoncal2704&layout=compact&theme=tokyonight&border_radius=8&hide_border=true&langs_count=6&card_width=470" alt="Top Languages" />
 
 </div>
 
