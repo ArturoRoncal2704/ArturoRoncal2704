@@ -15,9 +15,9 @@
 
 ### 👨‍💻 Sobre mí
 
-Soy **Arturo Roncal**, desarrollador backend en formación de **Perú 🇵🇪**, especializado en **Java, Spring Boot y arquitectura de microservicios**.  
-Actualmente estudio **Computación e Informática en Cibertec (6.º ciclo)** y profundizo en **programación reactiva, DevOps y cloud computing**.  
-Apasionado por la innovación, el código limpio y el aprendizaje continuo. 🚀
+Soy Carlos Arturo Roncal, desarrollador backend egresado de la carrera de Computación e Informática en Cibertec. Me especializo en la construcción de sistemas robustos y escalables utilizando Java con Spring Boot.
+
+Cuento con experiencia en el diseño de arquitectura de microservicios y gestión de bases de datos como Oracle PL/SQL, MySQL y SQL Server. Me apasiona aplicar principios de Clean Code, explorar nuevas tecnologías en la nube y seguir evolucionando profesionalmente para aportar soluciones innovadoras.
 
 ---
 
