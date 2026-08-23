@@ -1,85 +1,186 @@
-<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <title>Carlos Arturo — Backend Developer &amp; QA Engineer</title>
+
   <defs>
-    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f0f0f;stop-opacity:1" />
-      <stop offset="25%" style="stop-color:#1a1a2e;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
-      <stop offset="75%" style="stop-color:#0f3460;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#533a71;stop-opacity:1" />
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0E17"/>
+      <stop offset="55%" stop-color="#101B2E"/>
+      <stop offset="100%" stop-color="#0A1420"/>
     </linearGradient>
-    
-    <radialGradient id="glowEffect" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.2" />
-      <stop offset="70%" style="stop-color:#00D9FF;stop-opacity:0.05" />
-      <stop offset="100%" style="stop-color:transparent;stop-opacity:0" />
-    </radialGradient>
-    
-    <filter id="textGlow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge> 
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    
-    <filter id="titleGlow">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-      <feMerge> 
-        <feMergeNode in="coloredBlur"/>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1C2A42"/>
+    </pattern>
+    <clipPath id="panelClip">
+      <rect x="48" y="46" width="330" height="208" rx="14"/>
+    </clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
-  
-  <!-- Background -->
-  <rect width="1200" height="400" fill="url(#backgroundGradient)"/>
-  
-  <!-- Stars -->
-  <circle cx="100" cy="80" r="1.5" fill="white" opacity="0.8"/>
-  <circle cx="200" cy="120" r="1" fill="white" opacity="0.6"/>
-  <circle cx="300" cy="60" r="1.5" fill="white" opacity="0.9"/>
-  <circle cx="450" cy="100" r="1" fill="white" opacity="0.7"/>
-  <circle cx="600" cy="70" r="1.5" fill="white" opacity="0.8"/>
-  <circle cx="750" cy="110" r="1" fill="white" opacity="0.6"/>
-  <circle cx="900" cy="50" r="1.5" fill="white" opacity="0.9"/>
-  <circle cx="1050" cy="90" r="1" fill="white" opacity="0.7"/>
-  <circle cx="150" cy="300" r="1" fill="white" opacity="0.6"/>
-  <circle cx="350" cy="320" r="1.5" fill="white" opacity="0.8"/>
-  <circle cx="550" cy="280" r="1" fill="white" opacity="0.7"/>
-  <circle cx="750" cy="310" r="1.5" fill="white" opacity="0.9"/>
-  <circle cx="950" cy="290" r="1" fill="white" opacity="0.6"/>
-  <circle cx="1100" cy="330" r="1.5" fill="white" opacity="0.8"/>
-  
-  <!-- Glow Effect -->
-  <ellipse cx="600" cy="200" rx="200" ry="150" fill="url(#glowEffect)"/>
-  
-  <!-- Floating Code Elements -->
-  <text x="150" y="180" font-family="monospace" font-size="32" fill="#8B4513" opacity="0.3">{}</text>
-  <text x="980" y="250" font-family="monospace" font-size="28" fill="#8B4513" opacity="0.25">[]</text>
-  <text x="200" y="350" font-family="monospace" font-size="30" fill="#8B4513" opacity="0.3">&lt;/&gt;</text>
-  <text x="950" y="140" font-family="monospace" font-size="32" fill="#8B4513" opacity="0.25">$</text>
-  
-  <!-- Geometric Shapes -->
-  <circle cx="950" cy="100" r="30" stroke="#8B4513" stroke-width="2" fill="none" opacity="0.3"/>
-  <polygon points="200,280 170,330 230,330" stroke="#8B4513" stroke-width="2" fill="none" opacity="0.25"/>
-  <polygon points="1000,300 1040,315 1040,345 1000,360 960,345 960,315" stroke="#8B4513" stroke-width="2" fill="none" opacity="0.3"/>
-  
-  <!-- Hand Icon -->
-  <text x="180" y="220" font-size="80" fill="#FFD700">🤘</text>
-  
-  <!-- Server Icon -->
-  <text x="940" y="220" font-size="80" fill="#00D9FF">🖥️</text>
-  
-  <!-- Main Name -->
-  <text x="600" y="180" font-family="Arial, sans-serif" font-size="72" font-weight="800" 
-        fill="white" text-anchor="middle" filter="url(#textGlow)" 
-        letter-spacing="3px">Carlos Arturo</text>
-  
-  <!-- Title -->
-  <text x="600" y="240" font-family="Arial, sans-serif" font-size="40" font-weight="700" 
-        fill="#00D9FF" text-anchor="middle" filter="url(#titleGlow)" 
-        letter-spacing="2px">Backend Developer</text>
-  
-  <!-- Title Underline -->
-  <line x1="430" y1="255" x2="770" y2="255" stroke="#00D9FF" stroke-width="4"/>
+
+  <!-- background -->
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#dots)" opacity="0.55"/>
+
+  <!-- microservices node-graph motif, kept to quiet margins -->
+  <g stroke="#3FD9C7" stroke-width="1" opacity="0.16">
+    <line x1="60" y1="24" x2="160" y2="14"/>
+    <line x1="160" y1="14" x2="250" y2="26"/>
+    <line x1="250" y1="26" x2="360" y2="16"/>
+    <line x1="620" y1="18" x2="720" y2="28"/>
+    <line x1="720" y1="28" x2="830" y2="14"/>
+    <line x1="900" y1="20" x2="1010" y2="12"/>
+    <line x1="1010" y1="12" x2="1110" y2="24"/>
+    <line x1="90" y1="284" x2="200" y2="292"/>
+    <line x1="200" y1="292" x2="300" y2="282"/>
+    <line x1="820" y1="288" x2="930" y2="280"/>
+    <line x1="930" y1="280" x2="1050" y2="292"/>
+  </g>
+  <g fill="#4FD1C5" opacity="0.4">
+    <circle cx="60" cy="24" r="2"/><circle cx="160" cy="14" r="2"/><circle cx="250" cy="26" r="2"/><circle cx="360" cy="16" r="2"/>
+    <circle cx="620" cy="18" r="2"/><circle cx="720" cy="28" r="2"/><circle cx="830" cy="14" r="2"/>
+    <circle cx="900" cy="20" r="2"/><circle cx="1010" cy="12" r="2"/><circle cx="1110" cy="24" r="2"/>
+    <circle cx="90" cy="284" r="2"/><circle cx="200" cy="292" r="2"/><circle cx="300" cy="282" r="2"/>
+    <circle cx="820" cy="288" r="2"/><circle cx="930" cy="280" r="2"/><circle cx="1050" cy="292" r="2"/>
+  </g>
+
+  <!-- top-right status tag -->
+  <g font-family="'JetBrains Mono', Consolas, monospace" font-size="11" fill="#7C8AA5">
+    <circle cx="1057" cy="27" r="3" fill="#4FD1C5"/>
+    <text x="1068" y="31">Lima, Perú</text>
+  </g>
+
+  <!-- terminal panel -->
+  <g clip-path="url(#panelClip)">
+    <rect x="48" y="46" width="330" height="208" fill="#0D1420"/>
+    <rect x="48" y="46" width="330" height="34" fill="#101B2E"/>
+  </g>
+  <rect x="48" y="46" width="330" height="208" rx="14" fill="none" stroke="#22314A" stroke-width="1.5"/>
+  <circle cx="68" cy="63" r="5" fill="#FF5F56"/>
+  <circle cx="88" cy="63" r="5" fill="#FFBD2E"/>
+  <circle cx="108" cy="63" r="5" fill="#27C93F"/>
+  <text x="360" y="67" text-anchor="end" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" fill="#5B6B85">role.sh</text>
+
+  <g font-family="'JetBrains Mono', Consolas, monospace" font-size="15">
+    <g opacity="0">
+      <text x="68" y="100"><tspan fill="#4FD1C5">$</tspan><tspan fill="#C7D2E3"> whoami</tspan></text>
+      <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.3s" fill="freeze"/>
+    </g>
+    <g opacity="0">
+      <text x="68" y="126" fill="#7C8AA5">carlos_arturo</text>
+      <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.3s" fill="freeze"/>
+    </g>
+    <g opacity="0">
+      <text x="68" y="152"><tspan fill="#4FD1C5">$</tspan><tspan fill="#C7D2E3"> role --current</tspan></text>
+      <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.3s" fill="freeze"/>
+    </g>
+    <g opacity="0">
+      <text x="68" y="178" fill="#F5A623">backend_dev &amp;&amp; qa_automation</text>
+      <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.3s" fill="freeze"/>
+    </g>
+    <g opacity="0">
+      <text x="68" y="204"><tspan fill="#4FD1C5">$</tspan><tspan fill="#C7D2E3"> </tspan></text>
+      <animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.2s" fill="freeze"/>
+    </g>
+  </g>
+  <rect x="83" y="192" width="9" height="14" fill="#4FD1C5" opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.5;0.51;1" begin="2.4s" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- name with soft glow -->
+  <text x="430" y="118" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="800"
+        letter-spacing="0.5" fill="#4FD1C5" opacity="0.35" filter="url(#glow)">Carlos Arturo</text>
+  <text x="430" y="118" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="800"
+        letter-spacing="0.5" fill="#EAF0F9">Carlos Arturo</text>
+
+  <line x1="430" y1="132" x2="760" y2="132" stroke="#4FD1C5" stroke-width="4" stroke-linecap="round" stroke-dasharray="330" stroke-dashoffset="330">
+    <animate attributeName="stroke-dashoffset" from="330" to="0" begin="0.3s" dur="1s" fill="freeze"/>
+  </line>
+  <text x="430" y="165" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="500" fill="#9FB3CE">Backend Developer · QA Engineer</text>
+
+  <!-- tag chips with per-tech accent dots -->
+  <g font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#B9C6DC">
+    <g opacity="0">
+      <rect x="430" y="192" width="72" height="28" rx="14" fill="#16233A" stroke="#2A3B57"/>
+      <circle cx="445" cy="206" r="4" fill="#F5A623"/>
+      <text x="470" y="210" text-anchor="middle">Java</text>
+      <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.4s" fill="freeze"/>
+    </g>
+    <g opacity="0">
+      <rect x="510" y="192" width="126" height="28" rx="14" fill="#16233A" stroke="#2A3B57"/>
+      <circle cx="525" cy="206" r="4" fill="#6DB33F"/>
+      <text x="580" y="210" text-anchor="middle">Spring Boot</text>
+      <animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.4s" fill="freeze"/>
+    </g>
+    <g opacity="0">
+      <rect x="644" y="192" width="80" height="28" rx="14" fill="#16233A" stroke="#2A3B57"/>
+      <circle cx="659" cy="206" r="4" fill="#C7D2E3"/>
+      <text x="686" y="210" text-anchor="middle">Kafka</text>
+      <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.4s" fill="freeze"/>
+    </g>
+    <g opacity="0">
+      <rect x="732" y="192" width="102" height="28" rx="14" fill="#16233A" stroke="#2A3B57"/>
+      <circle cx="747" cy="206" r="4" fill="#4FD1C5"/>
+      <text x="787" y="210" text-anchor="middle">Selenium</text>
+      <animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.4s" fill="freeze"/>
+    </g>
+    <g opacity="0">
+      <rect x="842" y="192" width="92" height="28" rx="14" fill="#16233A" stroke="#2A3B57"/>
+      <circle cx="857" cy="206" r="4" fill="#2496ED"/>
+      <text x="892" y="210" text-anchor="middle">Docker</text>
+      <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.4s" fill="freeze"/>
+    </g>
+  </g>
+
+  <!-- CI/QA pipeline signature -->
+  <line x1="430" y1="255" x2="1140" y2="255" stroke="#22314A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="430" y1="255" x2="1140" y2="255" stroke="#4FD1C5" stroke-width="3" stroke-linecap="round"
+        stroke-dasharray="710" stroke-dashoffset="710">
+    <animate attributeName="stroke-dashoffset"
+             values="710;710;355;355;0;0;710"
+             keyTimes="0;0.05;0.24;0.38;0.58;0.85;1"
+             dur="6s" repeatCount="indefinite"/>
+  </line>
+
+  <g font-family="'JetBrains Mono', Consolas, monospace" font-size="12" fill="#7C8AA5" text-anchor="middle">
+    <text x="430" y="278">BUILD</text>
+    <text x="785" y="278">TEST</text>
+    <text x="1140" y="278">DEPLOY</text>
+  </g>
+
+  <circle cx="430" cy="255" r="9" fill="#3A4A63">
+    <animate attributeName="fill" values="#3A4A63;#F5A623;#4FD1C5;#4FD1C5;#3A4A63"
+             keyTimes="0;0.05;0.17;0.85;1" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="430" y="259" text-anchor="middle" font-size="10" fill="#0A0E17" font-weight="700" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.16;0.17;0.85;0.86" dur="6s" repeatCount="indefinite"/>✓
+  </text>
+
+  <circle cx="785" cy="255" r="9" fill="#3A4A63">
+    <animate attributeName="fill" values="#3A4A63;#3A4A63;#F5A623;#4FD1C5;#4FD1C5;#3A4A63"
+             keyTimes="0;0.21;0.24;0.38;0.85;1" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="785" y="259" text-anchor="middle" font-size="10" fill="#0A0E17" font-weight="700" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.37;0.38;0.85;0.86" dur="6s" repeatCount="indefinite"/>✓
+  </text>
+
+  <!-- deploy node with finishing pulse -->
+  <circle cx="1140" cy="255" r="9" fill="none" stroke="#4FD1C5" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="9;9;24" keyTimes="0;0.58;0.78" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.7;0" keyTimes="0;0.58;0.78" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1140" cy="255" r="9" fill="#3A4A63">
+    <animate attributeName="fill" values="#3A4A63;#3A4A63;#F5A623;#4FD1C5;#4FD1C5;#3A4A63"
+             keyTimes="0;0.54;0.58;0.67;0.85;1" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1140" y="259" text-anchor="middle" font-size="10" fill="#0A0E17" font-weight="700" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.67;0.85;0.86" dur="6s" repeatCount="indefinite"/>✓
+  </text>
+
+  <!-- footer handle -->
+  <text x="60" y="292" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" fill="#4A5C78">github.com/ArturoRoncal2704</text>
 </svg>
