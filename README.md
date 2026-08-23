@@ -8,8 +8,8 @@
 
 ### 👋 ¡Hola! Soy Arturo Roncal
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-@CarlosArturo-487FCF?style=for-the-badge&logo=LinkedIn&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/carlos-ron27/)
-[![Email](https://img.shields.io/badge/CarlosArturo-email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010)](mailto:roncalhermenegildo@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-@CarlosArturo-487FCF?style=for-the-badge&logo=LinkedIn&logoColor=white&labelColor=0A0E17)](https://www.linkedin.com/in/carlos-ron27/)
+[![Email](https://img.shields.io/badge/CarlosArturo-email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0E17)](mailto:roncalhermenegildo@gmail.com)
 
 ---
 
@@ -67,19 +67,19 @@ Cuento con experiencia en el diseño de arquitectura de microservicios y gestió
 
 <div align="center">
 
-  <img src="https://streak-stats.demolab.com?user=ArturoRoncal2704&theme=tokyonight&border_radius=8&hide_border=true&exclude_days=Sun,Sat&card_width=470" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=ArturoRoncal2704&hide_border=true&background=0A0E17&ring=4FD1C5&fire=F5A623&currStreakLabel=4FD1C5&sideNums=EAF0F9&sideLabels=9FB3CE&dates=7C8AA5&border_radius=8&exclude_days=Sun,Sat&card_width=470" alt="GitHub Streak" />  
+
+  <br><br>
+
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=ArturoRoncal2704&show_icons=true&hide_border=true&bg_color=0A0E17&title_color=4FD1C5&icon_color=F5A623&text_color=C7D2E3&border_radius=8&card_width=470" alt="GitHub Stats" />
   
   <br><br>
 
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=ArturoRoncal2704&show_icons=true&theme=tokyonight&border_radius=8&hide_border=true&card_width=470" alt="GitHub Stats" />
-  
-  <br><br>
-
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ArturoRoncal2704&layout=compact&theme=tokyonight&border_radius=8&hide_border=true&langs_count=6&card_width=470" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ArturoRoncal2704&layout=compact&hide_border=true&bg_color=0A0E17&title_color=4FD1C5&text_color=C7D2E3&border_radius=8&langs_count=6&card_width=470" alt="Top Languages" />
 
 </div>
 
 
 ---
 
-*¡Gracias por visitar mi perfil.Siempre abierto a aprender, colaborar y crear proyectos que generen impacto real.🚀*
+<p align="center"><i>Gracias por visitar mi perfil. Siempre abierto a aprender, colaborar y crear proyectos que generen impacto real. 🚀</i></p>
